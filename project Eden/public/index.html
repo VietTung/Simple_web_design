@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+<head>
+    
+    <meta name="author" content="Tung Nguyen">
+    <meta name="description" content="Biography">
+    <meta charset="utf-8">
+    <meta name="viewport" \content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="res/styles-eden.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+    crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    
+    <title>Project: Eden</title> 
+    
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-image:linear-gradient(270deg,#33bea9, #1ccb59f1)">
+        <br>
+        <div class="container-fluid">
+            
+            <a class="navbar-brand" href="#">
+                <img src="res/Eden-Logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Eden Solution
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Our Solution
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="eden_solution.html">Eden</a></li>
+                            <li><a class="dropdown-item" href="login.html">Eden Market</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">News</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <br>
+    </nav>
+    
+    <div id="edenCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#edenCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#edenCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#edenCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="res/food-waste.jpg" class="d-block w-100 img-fluid" style="filter: drop-shadow(8px 8px 10px gray);" alt="First slide - Food Waste">
+                <div class="carousel-caption d-none d-md-block" style="color: white">
+                    <h1><span style="font-size: 100px; color:yellow">7.3 million</span> <br> tons of food wasted annually</h1>
+                    <br>
+                    <p><a class="btn btn-success btn-lg" href="https://www.environment.gov.au/protection/waste/food-waste">To know more</a></p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="res/composting_banner_edited.jpg" class="d-block w-100 img-fluid" style="filter: drop-shadow(8px 8px 10px gray);" alt="Second slide - Household">
+                <div class="carousel-caption d-none d-md-block" style="color: white">
+                    <h1><span style="font-size: 100px; color:yellow">34%</span> <br> total food waste comes from household</h1>
+                    <br>
+                    <p><a class="btn btn-success btn-lg" href="https://www.mdpi.com/2071-1050/13/6/3377">To know more</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="res/ways-wasting-money_edited.jpg" class="d-block w-100 img-fluid" style="filter: drop-shadow(8px 8px 10px gray);" alt="Third slide - Money">
+                <div class="carousel-caption d-none d-md-block" style="color: white">
+                    <h1>about <span style="font-size: 100px; color:yellow">$3800AUD</span> <br> being wasted each household annually</h1>
+                    <br>
+                    <p><a class="btn btn-success btn-lg" href="https://www.mdpi.com/2071-1050/13/6/3377">To know more</a></p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#edenCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#edenCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <div class="about-section-image container-fluid">
+        <div class="about-section-text">
+            <h1>About Eden</h1>
+            <h2>The solution to food waste</h2>
+            <p style="font-size:20px; color:#000000">
+                "An application that can provide <span style="font-size:24px"><b>households</b></span> both <span style="font-size:22px; color:#ffffff"><em>convenience</em></span> and <span style="font-size:22px; color:#ffffff"><em>flexibility</em></span> while help them keep track with their ingredients"</p>
+                <p><a class="btn btn-success btn-lg" href="eden_solution.html">To know more</a></p>
+                <hr>
+                <h1>Collaborator</h1>
+                <img src="res/woolworth-logo-bg_edited.png" width="200" height="200" class="rounded float-start">
+                <img src="res/coles-logo-bg_edited.png" width="300" height="300" class="rounded float-end">
+            </div>
+            
+        </div>
+
+        <br>
+
+        <h2 style="text-align:center; margin-top: 20px; font-size: 100px;">About us</h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="padding:20px">
+                    <h3 style="font-size: 50px">Our Team</h3>
+                    <br>
+                    <p style="font-size: 25px">Our team consists of motivated individuals who wish to protect the environment by reducing the foood waste to the minimum</p>
+                </div>
+                <div class="col-md-4" style="padding:20px">
+                    <h3 style="font-size: 50px">Our Vision</h3>
+                    <br>
+                    <p style="font-size: 25px">Inspire and motivate the coming generations of Young Adults to be Aware and Responible for Environment by providing convenience and flexibility to their daily life meal planning</p>
+                </div>
+                <div class="col-md-4" style="padding:20px">
+                    <h3 style="font-size: 50px">Our Motivation</h3>
+                    <br>
+                    <p style="font-size: 25px">Anyone can make significant decisions to protect the environment. And even small things like daily habit can create impact in making the world better.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Team" >
+            <h2 style="text-align:center;">Our Team</h2>
+            
+            <div class="container card-group">
+                <div class="card border-success mb-3" style="width: 18rem;">
+                    <img src="res/role/Ben.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ben Lentini</h5>
+                        <p class="card-text">CEO - Manager</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Phone: +XX-XXX-XXX</li>
+                        <li class="list-group-item">Email: aa@gmail.com</li>
+                        
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Learn more</a>
+                        
+                    </div>
+                </div>
+                
+                <div class="card border-success mb-3" style="width: 18rem;">
+                    <img src="res/role/Eric.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Eric Yu</h5>
+                        <p class="card-text">CBO - Business consultant</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Phone: +XX-XXX-XXX</li>
+                        <li class="list-group-item">Email: aa@gmail.com</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Learn more</a>
+                        
+                    </div>
+                </div>
+                <div class="card border-success mb-3" style="width: 18rem;">
+                    <img src="res/role/simran mittal.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Simran Mittal</h5>
+                        <p class="card-text">CDO - Application design</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Phone: +XX-XXX-XXX</li>
+                        <li class="list-group-item">Email: aa@gmail.com</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container card-group">
+                <div class="card border-success mb-3" style="width: 18rem;">
+                    <img src="res/role/Udith.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Udith Pasan</h5>
+                        <p class="card-text">CDO - Presentation</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Phone: +XX-XXX-XXX</li>
+                        <li class="list-group-item">Email: aa@gmail.com</li>
+                        
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Learn more</a>
+                        
+                    </div>
+                </div>
+                
+                <div class="card border-success mb-3" style="width: 18rem;">
+                    <img src="res/role/Tung.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tung Nguyen</h5>
+                        <p class="card-text">CTO - Developer</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Phone: +XX-XXX-XXX</li>
+                        <li class="list-group-item">Email: aa@gmail.com</li>
+                        
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Learn more</a>
+                        
+                    </div>
+                </div>
+                <div class="card border-success mb-3" style="width: 18rem;">
+                    <img src="res/role/Minyue.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Minyue Cai</h5>
+                        <p class="card-text">CTO - UI/UX</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Phone: +XX-XXX-XXX</li>
+                        <li class="list-group-item">Email: aa@gmail.com</li>
+                        
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Learn more</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div id="demo" style="text-align:center">
+            <h1>Try out now!</h1>
+            <br>
+            <h2>You can try the prototype of our solution here:</h2>
+            <p><a class="btn btn-dark btn-lg" href="https://www.figma.com/proto/JjGl3VbYPLzaN0ZsziS3bg/High-fidelity-mockup?node-id=90%3A474&scaling=scale-down&page-id=0%3A1&starting-point-node-id=90%3A474&show-proto-sidebar=1">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                      </svg>
+                </span>Test Demo
+            </a></p>
+        </div>
+
+        <footer>
+            <div onclick="openTab('ref');" style="background:#7e8a91;">
+                Reference list
+            </div>
+            <div id="ref" class="containerTab" style="display:none;background:#ffffff">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <p style="color:#000000">https://article.innovadatabase.com/articleimgs/article_images/636945479197928754FoodwasteZero.jpg</p>
+            </div>
+        </footer>
+        
+    </body>
+    </html>

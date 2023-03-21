@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+<head>
+    <meta name="author" content="Tung Nguyen">
+    <meta name="description" content="Biography">
+    <meta charset="utf-8">
+    <meta name="viewport" \content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="res/styles-eden.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+    crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    
+    <title>Project: Eden</title> 
+    
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-image:linear-gradient(270deg,#33bea9, #1ccb59f1)">
+        <br>
+        <div class="container-fluid">
+            
+            <a class="navbar-brand" href="#">
+                <img src="res/Eden-Logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Eden Solution
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Our Solution
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="eden_solution.html">Eden</a></li>
+                            <li><a class="dropdown-item" href="login.html">Eden Market</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">News</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <br>
+    </nav>
+    
+    <div class="card">
+        <div class="card-header">   
+            <h1>About this webpage</h1>   
+        </div>
+        
+        <p>This website is a simple project to promote our software solution named Eden - An approach to environemntal welfare concerning food waste issue</p>
+
+        <p>Currently, the project conist of the following webpages that can be accessed through the navigation bar on top of the page:</p>
+
+        <div class="card">
+            <div class="card-body">
+                <table class="table col-6 justify-content-md-center">
+                    <thead>
+                        <tr> 
+                            <th scope="col">Webpage</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Eden Solution -></td><td>Home</td></tr>
+                        <tr><td></td><td>About</td></tr>
+                        <tr><td></td><td>Contact Form</td></tr>
+                        <tr><td></td><td>OurSolution -></td><td>Eden</td></tr>
+                        <tr><td></td><td></td><td>Market</td></tr>
+                        <tr><td></td><td></td><td>News</td></tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <p> Aside from the content, there are quite a few features that have been implemented: </p>
+            
+        <ul>
+            <li><a href="#contact">Contact Form</a> for customer feedback</li>
+            <li><a href= "#dynamic">Dynamic</a> webpage</li>
+            <li><a href= "#log"> User</a> login</li>
+            <li><a href= "#api">Database</a> API</li>
+        </ul>
+        
+        <p>In which the following section will elaborate more about each of the feature's implementation</p>
+
+        <div class="card-header">   
+            <h1>Features</h1>
+        </div>
+
+        <h2 id="contact">Contact Form</h2>
+        <div class="clearfix">
+            <img src="res/form_html.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+          
+            <p class="col-md-6">
+              This feature allows user to submit their comments or feedbacks to the project development team.
+            </p>
+          
+            <p class="col-md-6">
+              As you can see, the form has been included with the sender's information as well as their comments and rating for the product solution. After clicking the submit button, their inputs will be saved and display in the table underneath the form as a illustration that their form has successfully been updated in the system. Not just in display, but the data will also be send back to the server database for the development team to access and review.
+            </p>
+
+            <img src="res/form_js_code.jpg" class="col-md-4 col-auto md-start mb-3 ms-md-3">
+             
+            <p>
+              And not only that, the form has been implemented with the input validation function, in which it checks whether there is any problem with the user's filled in details before final updates. There will be a display to notify the user whether there is any issue.
+            </p>
+        </div>
+
+        <hr><h2 id="dynamic">Dynamic View</h2>
+        <div class="clearfix">
+            <img src="res/Solution-do-pop.jpg" class="col-md-5 float-md-start mb-3 ms-md-3" alt="...">
+            <p>
+               As you explore the website, you will see sometimes the webpages have dynamic content, such as in the solution webpage, there is a tab layout that can drop down upon click
+            </p>
+          
+            <p>
+               Contents like those are being implemented by either directly adding JavaScript into the HTML file, or writting the function in a seperate JS file and link it in HTML by declaring
+            </p>
+
+            <p><b> &lt;script src="<em>[JS file name]</em>"&gt; &lt;/script&gt;</b></p>
+
+        </div>
+
+        <hr><h2 id="log">Login</h2>
+        <div class="clearfix">
+            <img src="res/login_html.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+          
+            <p class="col-md-6">
+              This feature can be viewed in the <a href="login.html">Eden Market</a> page, as at the current version, the user credential is only required to access the database that contains the products that Edem sell to users via their software solution.
+            </p>
+          
+            <p class="col-md-6">
+              To ensure the security for user when inputting the login details, the password will be encoded using SHA256 hashing method. The hashed password will be used for both analysing the user input and being saved inside the database.
+            </p>
+
+            <br>
+            <img src="res/login_js.jpg" class="col-md-4 col-auto float-md-start mb-3 ms-md-3">
+             
+            <p class="col-md-12 col-md-end">
+              And not only that, the form has been implemented with the input validation function, in which it checks whether there is any problem with the user's filled in details before final updates. There will be a display to notify the user whether there is any issue.
+            </p>
+
+            <p class="col-md-12 col-md-end">
+                The current login credentials is a copy of the username/password pair in task 10.2C. You can enter <b>drummerboy68/starrynight</b> as the credential to access the database
+              </p>
+        </div>
+
+        <hr><h2 id="api">Database API</h2>
+        <div class="clearfix">
+            <img src="res/api_html.jpg" class="col-md-5 float-md-start mb-3 ms-md-3" alt="...">
+            <p>
+               This feature can be accessed after the user successfully log in the webpage.
+            </p>
+          
+            <p>
+               The database is dynamically generated by using JavaScript to fetch a local JSON file that contain the data of the product name, category, image name and calories index.
+            </p>
+
+            <p>By default, the webpage will display all the database's items, however user can filter the items either by selecting a specific category in the drop down selection or type in search bar</p>
+
+        </div>
+        
+    </div>
+    
+        
+    </body>
+
+    </html>

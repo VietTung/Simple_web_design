@@ -1,0 +1,105 @@
+[
+    {
+      "name" : "baked beans",
+      "calories" : 155,
+      "image" : "beans.jpg",
+      "type" : "vegetables"
+    },
+    {
+      "name" : "hot dogs",
+      "calories" : 290,
+      "image" : "hotdogs.jpg",
+      "type" : "meat"
+    },
+    {
+      "name" : "spam",
+      "calories" : 174,
+      "image" : "spam.jpg",
+      "type" : "meat"
+    },
+    {
+      "name" : "white onions",
+      "calories" : 33,
+      "image" : "whiteonion.jpg",
+      "type" : "vegetables"
+    },
+    {
+      "name" : "shallots",
+      "calories" : 27,
+      "image" : "shallot.jpg",
+      "type" : "vegetables"
+    },
+    {
+      "name" : "cherry tomatoes",
+      "calories" : 30,
+      "image" : "cherrytomatoes.jpg",
+      "type" : "vegetables"
+    },
+    {
+      "name" : "refried beans",
+      "calories" : 92 ,
+      "image" : "refried.jpg",
+      "type" : "vegetables"
+    },
+    {
+      "name" : "kidney beans",
+      "calories" : 112,
+      "image" : "kidney.jpg",
+      "type" : "vegetables"
+    },
+    {
+      "name" : "garden peas",
+      "calories" : 81,
+      "image" : "gardenpeas.jpg",
+      "type" : "vegetables"
+    },
+    {
+      "name" : "mushy peas",
+      "calories" : 173,
+      "image" : "mushypeas.jpg",
+      "type" : "vegetables"
+    },
+    {
+      "name" : "corned beef",
+      "calories" : 251,
+      "image" : "cornedbeef.jpg",
+      "type" : "meat"
+    },
+    {
+      "name" : "tomato soup",
+      "calories" : 30,
+      "image" : "tomatosoup.jpg",
+      "type" : "soup"
+    },
+    {
+      "name" : "chopped tomatoes",
+      "calories" : 33,
+      "image" : "tomato.jpg",
+      "type" : "vegetables"
+    },
+    {
+      "name" : "chicken noodle soup",
+      "calories" : 136,
+      "image" : "chickennoodle.jpg",
+      "type" : "soup"
+    },
+    {
+      "name" : "carrot and coriander soup",
+      "calories" : 120,
+      "image" : "carrotcoriander.jpg",
+      "type" : "soup"
+    },
+    {
+      "name" : "ground beef",
+      "calories" : 178,
+      "image" : "groundbeef.jpg",
+      "type" : "meat"
+    },
+    {
+      "name" : "ground chicken",
+      "calories" : 169,
+      "image" : "groundchicken.jpg",
+      "type" : "meat"
+    }
+    
+  ]

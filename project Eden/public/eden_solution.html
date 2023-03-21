@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+<head>
+    
+    <meta name="author" content="Tung Nguyen">
+    <meta name="description" content="Biography">
+    <meta charset="utf-8">
+    <meta name="viewport" \content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="res/styles-eden.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+    crossorigin="anonymous"></script>
+    
+    
+    <title>Project: Eden</title> 
+    
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-image:linear-gradient(270deg,#33bea9, #1ccb59f1)">
+        <div class="container-fluid">
+            
+            <a class="navbar-brand" href="index.html">
+                <img src="res/Eden-Logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Eden Solution
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Our Solution
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="eden_solution.html">Eden</a></li>
+                            <li><a class="dropdown-item" href="login.html">Eden Market</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">News</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+    <div class="about-section-image container-fluid">
+        <div class="about-section-text">
+            <h1>About Eden</h1>
+            <h2>The solution to food waste</h2>
+            <p style="font-size:20px; color:#000000">
+                "An application that can provide <span style="font-size:24px"><b>households</b></span> both <span style="font-size:22px; color:#ffffff"><em>convenience</em></span> and <span style="font-size:22px; color:#ffffff"><em>flexibility</em></span> while help them keep track with their ingredients"</p>
+            </div>
+        </div>
+        
+        <h2 style="text-align:center; margin-top: 20px; font-size: 100px;">Our solution's values</h2>
+        <!-- Three columns -->
+        <div class="gridrow">
+            <div class="gridcolumn" onclick="openTab('b1');" style="background:#91d521;">
+                Convenience
+            </div>
+            <div class="gridcolumn" onclick="openTab('b2');" style="background:#82bf1d;">
+                Flexibility
+            </div>
+            <div class="gridcolumn" onclick="openTab('b3');" style="background:#74aa1a;">
+                Subscription benefit
+            </div>
+        </div>
+        
+        <!-- Full-width columns: (hidden by default) -->
+        <div id="b1" class="containerTab" style="display:none;background:#91d521">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h2>Organize your fridge and pantry with Eden</h2>
+            <div class="gridrow">
+                <div class="column">
+                    <img src="res/Convenience-removebg-preview.png" alt="convenience_screenshot" width="305" height="294">
+                </div>
+                <div class="column-66">
+                    <p>Utilising the Google Lens technology, Eden can help you keep track of every ingredients that you bought simply by scanning the item. The application will also record the expiry date, and update the ingredient's shelf life for you after every update to the list</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div id="b2" class="containerTab" style="display:none;background:#82bf1d">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h2>Managing your meal planning with minimal effort</h2>
+            
+            <div class="gridrow">
+                <div class="column">
+                    <img src="res/Flexibility-removebg-preview.png" alt="flexibility_screenshot" width="305" height="294">
+                </div>
+                <div class="column-66">
+                    <p>Eden can consider all ingredients that you already have to suggests many viable recipe options with minimal to none extra ingredients so you can minize unnecessary spending</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div id="b3" class="containerTab" style="display:none;background:#74aa1a">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h2>More available functions and service with only 5.99$AUD</h2>
+            
+            <div class="gridrow">
+                <div class="column">
+                    <img src="res/Subscription_benefit-removebg.png" alt="sub_screenshot" width="305" height="294">
+                </div>
+                <div class="column-66">
+                    <p>With Eden subscription, you can gain even more benefits such as automated shopping list generator, delivery discount from our collaborate retail brands such as Coles and Woolworths, and many more</p>
+                </div>
+            </div>
+            
+        </div>
+        <br><hr>
+
+        <div id="demoVideo" class="container">
+            <h2 style="text-align:center">Our Video Demo</h2>
+            <br>
+            <div class="d-flex justify-content-center">
+                <video width="300" height="600" controls>
+                    <source src="res/file.mp4" type="video/mp4">
+                    <source src="res/file.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        
+        <br><hr><br>
+        
+        <div id="demo" style="text-align:center">
+            <h1>Try out now!</h1>
+            <br>
+            <h2>You can try the prototype of our solution here:</h2>
+            <p><a class="btn btn-dark btn-lg" href="https://www.figma.com/proto/JjGl3VbYPLzaN0ZsziS3bg/High-fidelity-mockup?node-id=90%3A474&scaling=scale-down&page-id=0%3A1&starting-point-node-id=90%3A474&show-proto-sidebar=1">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                      </svg>
+                </span>Test Demo
+            </a></p>
+
+        </div>
+
+        <footer>
+            <div onclick="openTab('ref');" style="background:#7e8a91;">
+                Reference list
+            </div>
+            <div id="ref" class="containerTab" style="display:none;background:#ffffff">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <p style="color:#000000">https://article.innovadatabase.com/articleimgs/article_images/636945479197928754FoodwasteZero.jpg</p>
+            </div>
+        </footer>
+        
+        <script>
+            function openTab(tabName) {
+              var i, x;
+              x = document.getElementsByClassName("containerTab");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              document.getElementById(tabName).style.display = "block";
+            }
+            </script>
+    </body>
+    </html>
